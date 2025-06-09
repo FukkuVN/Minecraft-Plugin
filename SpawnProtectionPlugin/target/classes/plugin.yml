@@ -1,0 +1,4 @@
+name: SpawnProtectionPlugin
+main: com.fukkuplugin.spawnprotectionplugin.SpawnProtectionPlugin
+version: 1.0
+api-version: 1.13

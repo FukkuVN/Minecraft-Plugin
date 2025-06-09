@@ -1,0 +1,4 @@
+name: EconomyPlugin
+main: com.fukkuplugin.economyplugin.EconomyPlugin
+version: 1.0
+api-version: 1.13

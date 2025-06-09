@@ -1,0 +1,4 @@
+name: EarthMapWebBridgePlugin
+main: com.fukkuplugin.earthmapwebbridgeplugin.EarthMapWebBridgePlugin
+version: 1.0
+api-version: 1.13

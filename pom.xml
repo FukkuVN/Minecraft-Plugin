@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+                             http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.fukkuplugin</groupId>
+    <artifactId>fukkuplugin</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <name>FukkuPlugin Parent</name>
+    <description>Parent POM cho các plugin Fukku</description>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <java.version>17</java.version> <!-- đồng bộ luôn version Java -->
+        <maven.compiler.source>${java.version}</maven.compiler.source>
+        <maven.compiler.target>${java.version}</maven.compiler.target>
+        <spigot.api.version>1.21.4-R0.1-SNAPSHOT</spigot.api.version>
+
+        <!-- Cấu hình để reactor không dừng khi gặp lỗi -->
+        <reactor.failFast>false</reactor.failFast>
+    </properties>
+
+    <repositories>
+        <repository>
+            <id>spigot-repo</id>
+            <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
+        </repository>
+    </repositories>
+
+    <modules>
+        <module>EarthSurvivalPlugin</module>
+        <module>EarthMapWebBridgePlugin</module>
+        <module>RankSystemPlugin</module>
+        <module>LobbyHubPlugin</module>
+        <module>EconomyPlugin</module>
+        <module>PvPArenaPlugin</module>
+        <module>SkyWorldPlugin</module>
+        <module>BedwarsPlugin</module>
+        <module>ChatFilterPlugin</module>
+        <module>AutoMessagePlugin</module>
+        <module>SpawnProtectionPlugin</module>
+        <module>AntiBotPlugin</module>
+        <module>StaffToolsPlugin</module>
+        <module>PlaceholderAPIAdapterPlugin</module>
+    </modules>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.spigotmc</groupId>
+                <artifactId>spigot-api</artifactId>
+                <version>${spigot.api.version}</version>
+                <scope>provided</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <build>
+        <pluginManagement>
+            <plugins>
+                <!-- Compiler plugin cho tất cả module -->
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-compiler-plugin</artifactId>
+                    <version>3.11.0</version> <!-- dùng bản mới -->
+                    <configuration>
+                        <source>${maven.compiler.source}</source>
+                        <target>${maven.compiler.target}</target>
+                    </configuration>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
+
+</project>

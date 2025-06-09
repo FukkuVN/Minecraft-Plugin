@@ -1,0 +1,4 @@
+name: EarthSurvivalPlugin
+main: com.fukkuplugin.earthsurvivalplugin.EarthSurvivalPlugin
+version: 1.0
+api-version: 1.13

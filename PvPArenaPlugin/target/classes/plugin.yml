@@ -1,0 +1,4 @@
+name: PvPArenaPlugin
+main: com.fukkuplugin.pvparenaplugin.PvPArenaPlugin
+version: 1.0
+api-version: 1.13

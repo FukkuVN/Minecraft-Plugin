@@ -1,0 +1,4 @@
+name: ChatFilterPlugin
+main: com.fukkuplugin.chatfilterplugin.ChatFilterPlugin
+version: 1.0
+api-version: 1.13

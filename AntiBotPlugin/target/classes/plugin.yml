@@ -1,0 +1,4 @@
+name: AntiBotPlugin
+main: com.fukkuplugin.antibotplugin.AntiBotPlugin
+version: 1.0
+api-version: 1.13
