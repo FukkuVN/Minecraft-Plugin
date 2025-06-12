@@ -1,1 +1,4 @@
-com\fukkuplugin\earthsurvivalplugin\EarthSurvivalPlugin.class
+fukkuplugin\RegionManager$Region.class
+fukkuplugin\FukkuPlugin.class
+fukkuplugin\PlayerSpawnListener.class
+fukkuplugin\RegionManager.class

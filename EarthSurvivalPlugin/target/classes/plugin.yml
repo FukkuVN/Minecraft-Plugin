@@ -1,4 +1,10 @@
-name: EarthSurvivalPlugin
-main: com.fukkuplugin.earthsurvivalplugin.EarthSurvivalPlugin
+name: FukkuPlugin
+main: fukkuplugin.FukkuPlugin
 version: 1.0
-api-version: 1.13
+api-version: 1.21
+description: Plugin spawn map 1:924 Trái Đất random theo vùng
+author: Bạn
+permissions:
+  fukkuplugin.use:
+    description: Cho phép sử dụng plugin
+    default: true

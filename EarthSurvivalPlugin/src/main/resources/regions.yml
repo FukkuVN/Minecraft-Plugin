@@ -1,0 +1,201 @@
+regions:
+
+  # Châu Á
+  vietnam:
+    minX: 21000
+    maxX: 22000
+    minZ: 6000
+    maxZ: 7000
+    title: "🇻🇳 Việt Nam"
+    subtitle: "Bạn đã đến Việt Nam (Châu Á)"
+
+  china:
+    minX: 22000
+    maxX: 24500
+    minZ: 5500
+    maxZ: 9000
+    title: "🇨🇳 Trung Quốc"
+    subtitle: "Bạn đã đến Trung Quốc (Châu Á)"
+
+  india:
+    minX: 18500
+    maxX: 20500
+    minZ: 6200
+    maxZ: 7600
+    title: "🇮🇳 Ấn Độ"
+    subtitle: "Bạn đã đến Ấn Độ (Châu Á)"
+
+  japan:
+    minX: 24500
+    maxX: 25000
+    minZ: 5300
+    maxZ: 5800
+    title: "🇯🇵 Nhật Bản"
+    subtitle: "Bạn đã đến Nhật Bản (Châu Á)"
+
+  russia_asia:
+    minX: 24500
+    maxX: 31000
+    minZ: 1000
+    maxZ: 6500
+    title: "🇷🇺 Nga (Châu Á)"
+    subtitle: "Bạn đã đến Nga (Châu Á)"
+
+  # Châu Âu
+  france:
+    minX: 16000
+    maxX: 17000
+    minZ: 4500
+    maxZ: 6000
+    title: "🇫🇷 Pháp"
+    subtitle: "Bạn đã đến Pháp (Châu Âu)"
+
+  germany:
+    minX: 17000
+    maxX: 18000
+    minZ: 4600
+    maxZ: 6200
+    title: "🇩🇪 Đức"
+    subtitle: "Bạn đã đến Đức (Châu Âu)"
+
+  uk:
+    minX: 15500
+    maxX: 16000
+    minZ: 4300
+    maxZ: 4800
+    title: "🇬🇧 Vương Quốc Anh"
+    subtitle: "Bạn đã đến Vương Quốc Anh (Châu Âu)"
+
+  italy:
+    minX: 16500
+    maxX: 17200
+    minZ: 6000
+    maxZ: 6500
+    title: "🇮🇹 Ý"
+    subtitle: "Bạn đã đến Ý (Châu Âu)"
+
+  spain:
+    minX: 15000
+    maxX: 15800
+    minZ: 6000
+    maxZ: 6500
+    title: "🇪🇸 Tây Ban Nha"
+    subtitle: "Bạn đã đến Tây Ban Nha (Châu Âu)"
+
+  russia_europe:
+    minX: 23000
+    maxX: 24500
+    minZ: 0
+    maxZ: 1000
+    title: "🇷🇺 Nga (Châu Âu)"
+    subtitle: "Bạn đã đến Nga (Châu Âu)"
+
+  # Bắc Mỹ
+  usa:
+    minX: 4600
+    maxX: 9500
+    minZ: 3700
+    maxZ: 5800
+    title: "🇺🇸 Hoa Kỳ"
+    subtitle: "Bạn đã đến Hoa Kỳ (Bắc Mỹ)"
+
+  canada:
+    minX: 3000
+    maxX: 4600
+    minZ: 5000
+    maxZ: 7000
+    title: "🇨🇦 Canada"
+    subtitle: "Bạn đã đến Canada (Bắc Mỹ)"
+
+  mexico:
+    minX: 4200
+    maxX: 4800
+    minZ: 4600
+    maxZ: 5100
+    title: "🇲🇽 Mexico"
+    subtitle: "Bạn đã đến Mexico (Bắc Mỹ)"
+
+  # Nam Mỹ
+  brazil:
+    minX: 9500
+    maxX: 11000
+    minZ: 500
+    maxZ: 2000
+    title: "🇧🇷 Brazil"
+    subtitle: "Bạn đã đến Brazil (Nam Mỹ)"
+
+  argentina:
+    minX: 9000
+    maxX: 9800
+    minZ: 0
+    maxZ: 500
+    title: "🇦🇷 Argentina"
+    subtitle: "Bạn đã đến Argentina (Nam Mỹ)"
+
+  chile:
+    minX: 8800
+    maxX: 9000
+    minZ: 0
+    maxZ: 300
+    title: "🇨🇱 Chile"
+    subtitle: "Bạn đã đến Chile (Nam Mỹ)"
+
+  # Châu Phi
+  egypt:
+    minX: 13000
+    maxX: 13500
+    minZ: 1500
+    maxZ: 2200
+    title: "🇪🇬 Ai Cập"
+    subtitle: "Bạn đã đến Ai Cập (Châu Phi)"
+
+  nigeria:
+    minX: 13500
+    maxX: 14000
+    minZ: 1000
+    maxZ: 1700
+    title: "🇳🇬 Nigeria"
+    subtitle: "Bạn đã đến Nigeria (Châu Phi)"
+
+  south_africa:
+    minX: 13000
+    maxX: 13500
+    minZ: 0
+    maxZ: 500
+    title: "🇿🇦 Nam Phi"
+    subtitle: "Bạn đã đến Nam Phi (Châu Phi)"
+
+  # Châu Đại Dương
+  australia:
+    minX: 27000
+    maxX: 28000
+    minZ: 0
+    maxZ: 1000
+    title: "🇦🇺 Úc"
+    subtitle: "Bạn đã đến Úc (Châu Đại Dương)"
+
+  new_zealand:
+    minX: 28000
+    maxX: 28300
+    minZ: 0
+    maxZ: 300
+    title: "🇳🇿 New Zealand"
+    subtitle: "Bạn đã đến New Zealand (Châu Đại Dương)"
+
+  # Bắc Cực (không đất liền nhiều, nên tạo vùng đại diện)
+  arctic:
+    minX: 25000
+    maxX: 27000
+    minZ: 7000
+    maxZ: 9000
+    title: "Bắc Cực"
+    subtitle: "Bạn đã đến Bắc Cực"
+
+  # Nam Cực
+  antarctica:
+    minX: 15000
+    maxX: 31000
+    minZ: -2000
+    maxZ: 0
+    title: "Nam Cực"
+    subtitle: "Bạn đã đến Nam Cực"

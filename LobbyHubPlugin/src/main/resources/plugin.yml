@@ -1,4 +1,22 @@
-name: LobbyHubPlugin
-main: com.fukkuplugin.lobbyhubplugin.LobbyHubPlugin
+name: LobbyProtect
 version: 1.0
-api-version: 1.13
+main: com.fukkuplugin.lobbyprotect.LobbyProtect
+api-version: 1.21
+commands:
+  login:
+    description: Đăng nhập vào server
+    usage: /login <password>
+  register:
+    description: Đăng ký tài khoản
+    usage: /register <password>
+  tpopen:
+    description: Mở giao diện teleport
+    usage: /tpopen
+  setspawn:
+    description: Cập nhật vị trí spawn cho lobby (chỉ dành cho admin)
+    usage: /setspawn
+    permission: op
+permissions:
+  lobbyprotect.use:
+    description: Quyền dùng plugin lobbyprotect
+    default: true

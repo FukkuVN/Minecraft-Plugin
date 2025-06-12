@@ -1,0 +1,35 @@
+spawn-location:
+  world: lobby
+  x: 0.5
+  y: 64
+  z: 0.5
+  yaw: 0.0
+  pitch: 0.0
+
+messages:
+  welcome:
+    - "&b&lChào Mừng Đến FukkuMC"
+    - "&cVui lòng đăng nhập để tiếp tục"
+  login_hint: "&eNhập /login <mật khẩu> để đăng nhập"
+  register_hint: "&eNhập /register <mật khẩu> để đăng ký tài khoản"
+  no_permission: "&cBạn không có quyền thực hiện lệnh này!"
+  login_success: "&aĐăng nhập thành công! Chúc bạn chơi vui vẻ."
+  register_success: "&aĐăng ký thành công! Vui lòng đăng nhập."
+  already_logged_in: "&eBạn đã đăng nhập rồi."
+  not_logged_in: "&cBạn cần đăng nhập để sử dụng chức năng này."
+  invalid_password: "&cMật khẩu không đúng. Vui lòng thử lại."
+  must_login: "&cBạn phải đăng nhập trước khi tương tác."
+
+items:
+  compass:
+    name: "&bLa Bàn Teleport"
+    lore:
+      - "&7Nhấn phải để mở giao diện dịch chuyển"
+  rule_book:
+    name: "&cSách Luật Server"
+    lore:
+      - "&7Đọc kỹ luật để tránh bị phạt"
+
+permissions:
+  lobby_protect:
+    block_movement: true
